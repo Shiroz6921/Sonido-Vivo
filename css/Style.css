@@ -15,11 +15,19 @@ body {
 
 .navbar {
   background-color: var(--cl-negro-oscuro) !important;
-  border-bottom: 1px solid #3a352f;
+  border-bottom: 1px solid #b17c3a;
 }
 
 .navbar-brand span {
   color: var(--cl-amarillo);
+}
+
+.navbar-brand {
+  color: var(--cl-amarillo-oscuro)
+}
+
+.nav-link {
+  color: var(--cl-texto-oscuro);
 }
 
 .hero {
