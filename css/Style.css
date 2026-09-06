@@ -7,6 +7,24 @@
   --cl-texto-oscuro: #b8b0a4;
 }
 
+.login-card {
+  background-color: var(--cl-negro-oscuro);
+  border: 1px solid #3a352f;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.texto-amarillo {
+  color: var(--cl-amarillo);
+}
+
+.form-label {
+  color: var(--cl-texto-oscuro);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
 body {
   background-color: var(--cl-negro);
   color: var(--cl-texto);
