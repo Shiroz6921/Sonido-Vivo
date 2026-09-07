@@ -9,7 +9,7 @@
 
 .login-card {
   background-color: var(--cl-negro-oscuro);
-  border: 1px solid #3a352f;
+  border: 1px solid var(--cl-texto-oscuro);
   border-radius: 12px;
   width: 100%;
   max-width: 420px;
