@@ -48,16 +48,6 @@ body {
   color: var(--cl-texto-oscuro);
 }
 
-.hero {
-  background: linear-gradient(180deg, #241f19 0%, var(--cl-negro) 100%);
-  padding: 4rem 1rem;
-  border-bottom: 1px solid #3a352f;
-}
-
-.hero .lead {
-  color: var(--cl-texto-oscuro);
-}
-
 .btn-accent {
   background-color: var(--cl-amarillo);
   border-color: var(--cl-amarillo);
@@ -123,4 +113,8 @@ footer {
   color: var(--cl-texto);
   border-color: var(--cl-amarillo);
   box-shadow: 0 0 0 .2rem rgba(217,142,47,.25);
+}
+
+.form-control::placeholder{
+  color: var(--cl-texto-oscuro)
 }
