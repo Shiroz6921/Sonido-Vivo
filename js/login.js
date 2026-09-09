@@ -1,7 +1,8 @@
 function ingresar() {
     let correo = document.getElementById("correo").value.trim();
     let clave = document.getElementById("clave").value;
- 
+    
+    
     if (correo === "" || clave === "") {
         alert("Debe completar todos los campos");
         return;
